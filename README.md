@@ -180,10 +180,10 @@ conda install -c bioconda mmseqs2  # for overlap analysis only
 ## Citation
 
 ```bibtex
-@article{sheng2024tpt,
+@article{sheng2026tpt,
   title={TPT: A Compact CNN-Transformer Encoder for Efficient Microbial Small Protein Modeling},
   author={Sheng, Fang and Zhang, Junhe and Zhu, Chengkai},
-  journal={Frontiers in Bioinformatics},
-  year={2024}
+  journal={Frontiers in },
+  year={2026}
 }
 ```
