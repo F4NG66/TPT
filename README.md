@@ -3,6 +3,21 @@
 A lightweight CNN-Transformer hybrid encoder for microbial smORF-encoded small proteins, pretrained on the Global Microbial smORF Catalog (GMSC; >280M sequences) with masked language modeling and contrastive learning.
 ---
 
+```
+╔═══════════════════════════════════════════════╗
+║                                               ║
+║        _______ _____ _______                  ║
+║       |__   __|  __ \__   __|                 ║
+║          | |  | |__) | | |                    ║
+║          | |  |  ___/  | |                    ║
+║          | |  | |      | |                    ║
+║          |_|  |_|      |_|                    ║
+║                                               ║
+║          ▸ TINY  PROTEIN  TRANSFORMER ◂       ║
+║                                               ║
+╚═══════════════════════════════════════════════╝
+```
+
 ## Repository Structure
 
 ```                 
