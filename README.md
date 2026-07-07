@@ -234,7 +234,7 @@ conda install -c bioconda mmseqs2  # for overlap analysis only
 @article{sheng2026tpt,
   title={TPT: A Compact CNN-Transformer Encoder for Efficient Microbial Small Protein Modeling},
   author={Sheng, Fang and Zhang, Junhe and Zhu, Chengkai},
-  journal={Frontiers in },
+  journal={Frontiers in Microbiology},
   year={2026}
 }
 ```
