@@ -65,8 +65,6 @@ Download from Hugging Face: https://huggingface.co/ffbond/TinyProteinTransformer
 
 ## Performance
 
-TPT matches or exceeds ESM2-150M across most downstream tasks at a fraction of the parameter count (103M vs 150M) and inference latency.
-
 | Category | Model | AMP (AUC) | Acr (AUC) | TOX (AUC) | BCN (AUC) | QSP (AUC) | CPP (AUC) |
 |---|---|---|---|---|---|---|---|
 | Ours | **TPT** | 0.9295 ± 0.0077 | 0.6962 ± 0.0706 | 0.9299 ± 0.0065 | 0.9219 ± 0.0446 | 0.9225 ± 0.0206 | 0.9380 ± 0.0088 |
