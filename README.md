@@ -4,18 +4,18 @@ A lightweight CNN-Transformer hybrid encoder for microbial smORF-encoded small p
 ---
 
 ```
-╔═══════════════════════════════════════════════╗
-║                                               ║
-║        _______ _____ _______                  ║
-║       |__   __|  __ \__   __|                 ║
-║          | |  | |__) | | |                    ║
-║          | |  |  ___/  | |                    ║
-║          | |  | |      | |                    ║
-║          |_|  |_|      |_|                    ║
-║                                               ║
-║          ▸ TINY  PROTEIN  TRANSFORMER ◂       ║
-║                                               ║
-╚═══════════════════════════════════════════════╝
+╔═══════════════════════════════════════════╗
+║                                           ║
+║        _______ _____ _______              ║
+║       |__   __|  __ \__   __|             ║
+║          | |  | |__) | | |                ║
+║          | |  |  ___/  | |                ║
+║          | |  | |      | |                ║
+║          |_|  |_|      |_|                ║
+║                                           ║
+║     ▸ TINY  PROTEIN  TRANSFORMER ◂        ║
+║                                           ║
+╚═══════════════════════════════════════════╝
 ```
 
 ## Repository Structure
@@ -46,10 +46,20 @@ A lightweight CNN-Transformer hybrid encoder for microbial smORF-encoded small p
 ```
 
 ---
+## Architecture
+
+<p align="center"><img src="arch.jpeg" width="700"></p>
+
+**(a)** Embedding layer feeds three parallel branches into stacked Transformer blocks (Multi-Head Attention + FeedForward, ×N layers) with Dropout and Layer Normalization. **(b)** Pretraining objectives: masked language modeling (MLM) and contrastive learning, optimized jointly via cross-entropy and InfoNCE loss.
+
+
+
+
+---
 
 ## Weights
 
-Download from [Releases](../../releases) and place at the paths above.
+Download from Hugging Face: https://huggingface.co/ffbond/TinyProteinTransformer 
 
 ---
 
